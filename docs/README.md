@@ -211,6 +211,3 @@ See [LICENSE](../LICENSE) for details.
 
 ---
 
-**Built with ❤️ for the TailRisk community**
-
-Last updated: 2025
