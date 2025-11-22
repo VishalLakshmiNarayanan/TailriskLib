@@ -39,5 +39,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Python 3.8+ support
 - MIT License
 
-[Unreleased]: https://github.com/yourusername/tailrisk-lib/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/yourusername/tailrisk-lib/releases/tag/v0.1.0
+[Unreleased]: https://github.com/VishalLakshmiNarayanan/TailriskLib/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/VishalLakshmiNarayanan/TailriskLib/releases/tag/v0.1.0

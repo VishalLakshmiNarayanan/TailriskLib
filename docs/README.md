@@ -164,7 +164,7 @@ Parameter documentation follows this format:
 
 If you find errors or unclear sections in the documentation:
 
-1. Check if the issue is already reported: [GitHub Issues](https://github.com/yourusername/tailrisk-lib/issues)
+1. Check if the issue is already reported: [GitHub Issues](https://github.com/VishalLakshmiNarayanan/TailriskLib/issues)
 2. Create a new documentation issue with:
    - Which document has the problem
    - What is unclear or incorrect
@@ -177,7 +177,7 @@ For questions about using TailRisk:
 1. Check the [Tutorial](TUTORIAL.md) for step-by-step guides
 2. Review [API Reference](API_REFERENCE.md) for parameter details
 3. Look at [examples](../examples/) for working code
-4. Search [GitHub Issues](https://github.com/yourusername/tailrisk-lib/issues)
+4. Search [GitHub Issues](https://github.com/VishalLakshmiNarayanan/TailriskLib/issues)
 5. Create a new issue with:
    - What you're trying to accomplish
    - What you've tried
@@ -188,7 +188,7 @@ For questions about using TailRisk:
 For bugs in the code:
 
 1. Verify it's reproducible with a minimal example
-2. Check [GitHub Issues](https://github.com/yourusername/tailrisk-lib/issues)
+2. Check [GitHub Issues](https://github.com/VishalLakshmiNarayanan/TailriskLib/issues)
 3. Create a bug report with:
    - TailRisk version
    - Python version

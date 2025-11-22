@@ -13,16 +13,16 @@ requirements = (this_directory / "requirements.txt").read_text(encoding='utf-8')
 setup(
     name="tailrisk",
     version="0.1.0",
-    author="Your Name",  # TODO: Update with your name
-    author_email="your.email@example.com",  # TODO: Update with your email
+    author="Vishal Lakshmi Narayanan",
+    author_email="lvishal1607@gmail.com",
     description="Risk-aware machine learning for tail risk modeling in insurance, finance, and beyond",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/tailrisk-lib",  # TODO: Update with your repo URL
+    url="https://github.com/VishalLakshmiNarayanan/TailriskLib",
     project_urls={
-        "Bug Tracker": "https://github.com/yourusername/tailrisk-lib/issues",
-        "Documentation": "https://github.com/yourusername/tailrisk-lib#readme",
-        "Source Code": "https://github.com/yourusername/tailrisk-lib",
+        "Bug Tracker": "https://github.com/VishalLakshmiNarayanan/TailriskLib/issues",
+        "Documentation": "https://github.com/VishalLakshmiNarayanan/TailriskLib#readme",
+        "Source Code": "https://github.com/VishalLakshmiNarayanan/TailriskLib",
     },
     packages=find_packages(exclude=["tests", "examples", "docs"]),
     classifiers=[

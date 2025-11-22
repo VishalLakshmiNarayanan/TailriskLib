@@ -89,8 +89,8 @@ pip install tailrisk
 ### From source
 
 ```bash
-git clone https://github.com/yourusername/tailrisk-lib.git
-cd tailrisk-lib
+git clone https://github.com/VishalLakshmiNarayanan/TailriskLib.git
+cd TailriskLib
 pip install -e .
 ```
 
@@ -312,10 +312,10 @@ If you use TailRisk in academic work, please cite:
 
 ```bibtex
 @software{tailrisk2025,
-  author = {Your Name},
+  author = {Vishal Lakshmi Narayanan},
   title = {TailRisk: Risk-Aware Machine Learning for Tail Risk Modeling},
   year = {2025},
-  url = {https://github.com/yourusername/tailrisk-lib}
+  url = {https://github.com/VishalLakshmiNarayanan/TailriskLib}
 }
 ```
 
@@ -331,9 +331,9 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ## Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/tailrisk-lib/issues)
-- **Email**: your.email@example.com
-- **Twitter**: @yourhandle
+- **Issues**: [GitHub Issues](https://github.com/VishalLakshmiNarayanan/TailriskLib/issues)
+- **Email**: lvishal1607@gmail.com
+- **GitHub**: [@VishalLakshmiNarayanan](https://github.com/VishalLakshmiNarayanan)
 
 ---
 

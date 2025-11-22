@@ -6,8 +6,8 @@ in insurance claims, financial losses, and other tail-risk scenarios.
 """
 
 __version__ = "0.1.0"
-__author__ = "Your Name"
-__email__ = "your.email@example.com"
+__author__ = "Vishal Lakshmi Narayanan"
+__email__ = "lvishal1607@gmail.com"
 
 from tailrisk.models.lar_regressor import LaRRegressor
 from tailrisk.models.hybrid_meta import HybridMetaLearner

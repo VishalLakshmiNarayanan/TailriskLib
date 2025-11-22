@@ -54,7 +54,7 @@ pip install --upgrade tailrisk
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tailrisk-lib.git
+git clone https://github.com/VishalLakshmiNarayanan/TailriskLib.git
 cd tailrisk-lib
 
 # Install the package
@@ -67,7 +67,7 @@ The `-e` flag installs in "editable" mode, allowing you to modify the source cod
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/tailrisk-lib.git
+git clone https://github.com/VishalLakshmiNarayanan/TailriskLib.git
 cd tailrisk-lib
 
 # Install normally
@@ -426,7 +426,7 @@ After successful installation:
 
 If you encounter issues not covered here:
 
-1. Check [GitHub Issues](https://github.com/yourusername/tailrisk-lib/issues)
+1. Check [GitHub Issues](https://github.com/VishalLakshmiNarayanan/TailriskLib/issues)
 2. Create a new issue with:
    - Python version (`python --version`)
    - TailRisk version (`python -c "import tailrisk; print(tailrisk.__version__)"`)

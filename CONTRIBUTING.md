@@ -7,8 +7,8 @@ Thank you for your interest in contributing to TailRisk! This document provides 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/tailrisk-lib.git
-cd tailrisk-lib
+git clone https://github.com/VishalLakshmiNarayanan/TailriskLib.git
+cd TailriskLib
 ```
 
 ### 2. Create a virtual environment
