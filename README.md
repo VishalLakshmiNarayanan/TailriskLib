@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyPI version](https://badge.fury.io/py/tailrisk.svg)](https://badge.fury.io/py/tailrisk)
+[![PyPI version](https://img.shields.io/badge/pypi-v0.1.2-blue.svg)](https://pypi.org/project/tailrisk/)
+
 
 **TailRisk** is a Python package for building machine learning models that excel at predicting extreme outcomes in insurance claims, financial losses, and other tail-risk scenarios.
 
