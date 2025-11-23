@@ -34,9 +34,9 @@ These are automatically installed when you install TailRisk.
 
 ## Installation Methods
 
-### Method 1: From PyPI (Recommended - Coming Soon)
+### Method 1: From PyPI (Recommended)
 
-Once published to PyPI, install with pip:
+Install with pip:
 
 ```bash
 pip install tailrisk
@@ -48,7 +48,7 @@ To upgrade to the latest version:
 pip install --upgrade tailrisk
 ```
 
-### Method 2: From Source (Current)
+### Method 2: From Source (For Development)
 
 #### Option A: Direct Installation
 
@@ -98,7 +98,7 @@ python -c "import tailrisk; print(tailrisk.__version__)"
 
 Expected output:
 ```
-0.1.0
+0.1.3
 ```
 
 ### Full Verification
@@ -143,7 +143,7 @@ Expected output:
 ✓ Metrics calculated
 
 Installation verified successfully!
-TailRisk version: 0.1.0
+TailRisk version: 0.1.3
 ```
 
 ---
@@ -326,7 +326,7 @@ pip install tailrisk
 
 ## Upgrading
 
-### From PyPI (when available)
+### From PyPI
 
 ```bash
 pip install --upgrade tailrisk

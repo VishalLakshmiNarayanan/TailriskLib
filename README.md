@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![PyPI version](https://img.shields.io/badge/pypi-v0.1.2-blue.svg)](https://pypi.org/project/tailrisk/)
+[![PyPI version](https://img.shields.io/badge/pypi-v0.1.3-blue.svg)](https://pypi.org/project/tailrisk/)
 
 
 **TailRisk** is a Python package for building machine learning models that excel at predicting extreme outcomes in insurance claims, financial losses, and other tail-risk scenarios.
@@ -57,13 +57,13 @@ predictions = model.predict(X_test)
 
 ## Key Features
 
-### 🎯 Tail-Focused Models
+### Tail-Focused Models
 
 - **Loss-at-Risk (LaR) Regressor**: Weighted regression that prioritizes large claims
 - **CVaR-Weighted Ensemble**: Combines models based on tail risk performance
 - **Hybrid Meta-Learner**: Two-stage architecture blending quantile regression + LaR optimization
 
-### 📊 Specialized Metrics
+### Specialized Metrics
 
 Standard metrics hide tail risk problems. TailRisk provides:
 
@@ -72,7 +72,7 @@ Standard metrics hide tail risk problems. TailRisk provides:
 - **Detection Rate**: Percentage of extreme claims correctly identified
 - **Loss-at-Risk**: Weighted MSE emphasizing large claims
 
-### 🔧 Production-Ready
+### Production-Ready
 
 - Scikit-learn compatible (works with `GridSearchCV`, `Pipeline`, etc.)
 - Comprehensive validation utilities
@@ -81,7 +81,7 @@ Standard metrics hide tail risk problems. TailRisk provides:
 
 ## Installation
 
-### From PyPI (coming soon)
+### From PyPI
 
 ```bash
 pip install tailrisk
@@ -101,12 +101,18 @@ pip install -e .
 
 ```python
 import numpy as np
+from sklearn.model_selection import train_test_split
 from tailrisk import LaRRegressor
 from tailrisk.metrics import tail_validation_summary
 
 # Heavy-tailed data (e.g., insurance claims)
 X = np.random.randn(1000, 10)
 y = np.random.exponential(scale=1000, size=1000)
+
+# Split data
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
 
 # Fit LaR model
 model = LaRRegressor(alpha=2.0)
@@ -316,6 +322,7 @@ If you use TailRisk in academic work, please cite:
   author = {Vishal Lakshmi Narayanan},
   title = {TailRisk: Risk-Aware Machine Learning for Tail Risk Modeling},
   year = {2025},
+  version = {0.1.3},
   url = {https://github.com/VishalLakshmiNarayanan/TailriskLib}
 }
 ```
@@ -336,6 +343,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - **Email**: lvishal1607@gmail.com
 - **GitHub**: [@VishalLakshmiNarayanan](https://github.com/VishalLakshmiNarayanan)
 
----
 
-**Made with ❤️ for actuaries, quants, and ML engineers fighting tail risk**
